@@ -1,0 +1,15 @@
+# 本地工作区元数据，不纳入版本管理
+.workbuddy/
+
+# 无效抓取产物（Cloudflare 拦截页，无正文）
+拆书项目02_非典型巫师/05_原始资料/toc_raw.html
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+~$*

@@ -1,0 +1,13 @@
+# 统一以 LF 存储，避免跨平台换行符导致整文件 diff
+* text=auto eol=lf
+
+# Markdown 与纯文本按文本处理
+*.md text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
